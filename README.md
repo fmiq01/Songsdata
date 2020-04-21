@@ -18,7 +18,7 @@ sudo docker pull cassandra:latest
 sudo docker run --name cassandra-test -p 9042:9042 -d cassandra:latest 
 
           Call dataset into the instance. (songdata.csv can be founf on the link below).
-wget -O country_currency.csv https://tinyurl.com/sbj72fc 
+wget -O songdata.csv https://tinyurl.com/sbj72fc 
 
              Check the first few lines and last few lines of downloaded CSV.
 head songdata.csv tail songdata.csv
